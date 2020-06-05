@@ -17,12 +17,14 @@ This tool aims to change this. The intended workflow is to
 # lines with # at the beginning are ignored
 # list of monitors generated on 2020-06-05 00:08:03
 # each line describes one found monitor
-# first column is the number of the monitor
-# second column pos x on the desktop
-# second column pos y on the desktop
-1,1920,1200
-2,1920,1200
-3,1920,1200
-4,1920,1200
-5,1920,1200
+# 1st column - the number of the monitor
+# 2nd column - left 
+# 3rd column - right
+# 4th column - top
+# 5th column - bottom
+0,0,1920,0,1200
+1,-1920,0,-1196,4
+2,0,1920,-1200,0
+3,1920,3840,0,1200
+4,-1920,0,4,1204
 ```
