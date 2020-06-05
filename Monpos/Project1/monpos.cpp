@@ -23,6 +23,8 @@ BOOL CALLBACK MonitorEnumProc(HMONITOR hMonitor, HDC hdcMonitor, LPRECT lprcMoni
     return TRUE;
 }
 
+// Thank you stack overflow 
+// https://stackoverflow.com/questions/7767036/how-do-i-get-the-number-of-displays-in-windows
 int DetectMonitors()
 {
     int Count = 0;
@@ -36,7 +38,7 @@ void write_file() {
     int i = 0;
     std::ofstream fout("afile.txt");
     while (monitor_dimensions[i] != NULL) {
-        fout << i << "," << monitor_dimensions[i]->left << "," << monitor_dimensions[i]->right << "," << monitor_dimensions[i]->top << "," << monitor_dimensions[i]->bottom << std::endl;
+        fout << i << "," << monitor_dimensions[i]->left << "," << monitor_dimensions[i]->top << std::endl;
         i++;
     }
     fout.close();
@@ -54,6 +56,6 @@ int main() {
 
 	
     write_file();
-	return 0;
+    return 0;
 }
 

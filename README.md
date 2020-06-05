@@ -23,12 +23,10 @@ This tool aims to change this. The intended workflow is to
 # each line describes one found monitor
 # 1st column - the number of the monitor
 # 2nd column - left 
-# 3rd column - right
-# 4th column - top
-# 5th column - bottom
-0,0,1920,0,1200
-1,-1920,0,-1196,4
-2,0,1920,-1200,0
-3,1920,3840,0,1200
-4,-1920,0,4,1204
+# 3rd column - top
+0,0,0
+1,-1920,-1196
+2,0,-1200
+3,1920,0
+4,-1931,4
 ```
