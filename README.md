@@ -3,10 +3,10 @@ A tool to pixel perfectly position monitors on a Windows desktop.
 
 If you have a Windows machine with more than one row of monitors you might have noticed that the Windows monitor alignment tool doesn't snap them on the corners properly.
 
-![Multi monitor Desktop misaligned](https://raw.githubusercontent.com/misel228/monpos/master/images/desktop.png "Multi monitor Desktop misaligned")
+![Multi monitor Desktop misaligned](https://raw.githubusercontent.com/misel228/monpos/main/images/desktop.png "Multi monitor Desktop misaligned")
 
 If you look closely you can see that the edges don't line up perfectly. Using the integrated monitor arrangement tool it's next to impossible to snap the screens together perfectly.
-![Corner Zoom](https://raw.githubusercontent.com/misel228/monpos/master/images/desktop_zoom_mismatched_corners.png "Corner Zoom")
+![Corner Zoom](https://raw.githubusercontent.com/misel228/monpos/main/images/desktop_zoom_mismatched_corners.png "Corner Zoom")
 
 
 This tool aims to change this. The intended workflow is to 
