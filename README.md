@@ -12,8 +12,10 @@ If you look closely you can see that the edges don't line up perfectly. Using th
 This tool aims to change this. The intended workflow is to 
 1. roughly align the monitors with Windows native solution,
 2. run this program once, to generate a monitor map file
-3. use a text editor to change the alignment as wanted in the map file
+3. use a text editor to change the alignment as wanted in the map file*
 4. run the program again with the updated map file to finally set your monitors
+
+*Monitors that are already in the correct position should be commented out. I encountered a but where the monitors were seemingly shuffled and I don't know why. But changing only the ones that needed correction solved that problem.
 
 ## map file content
 
